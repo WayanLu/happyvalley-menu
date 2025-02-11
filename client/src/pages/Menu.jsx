@@ -1,5 +1,6 @@
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import MenuList from "../features/menu/MenuList";
 
 function CreateMenu() {
   return (
@@ -13,7 +14,7 @@ function CreateMenu() {
         Tab content for Appetizers
       </Tab>
       <Tab eventKey="soup" title="Soup">
-        Tab content for soup
+        <MenuList />
       </Tab>
       <Tab eventKey="fowl" title="Fowl">
         Tab content for fowl
