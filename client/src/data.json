@@ -1,0 +1,56 @@
+{
+  "menu": {
+    "Appetizers": [
+      {
+        "name": "Char Siu",
+        "price": 16.95
+      },
+      {
+        "name": "Crispy Won Ton/Gau Gee",
+        "price": 8.95
+      },
+      {
+        "name": "Pot Stickers",
+        "price": 8.95
+      },
+      {
+        "name": "Eggroll",
+        "price": 6.95
+      },
+      {
+        "name": "Shrimp Canton",
+        "price": 14.95
+      },
+      {
+        "name": "Chicken Salad",
+        "price": 14.95
+      }
+    ],
+    "Soup": [
+      {
+        "name": "Scallop Soup",
+        "price": 15.95
+      },
+      {
+        "name": "Abalone w/ Black Mushroom Soup",
+        "price": 14.95
+      },
+      {
+        "name": "Hot & Sour Soup",
+        "price": 12.95
+      },
+      {
+        "name": "Seafood Tofu Soup",
+        "price": 17.95
+      },
+      {
+        "name": "Seaweed Tofu Soup",
+        "price": 12.95
+      },
+      {
+        "name": "Pork Mustard Cabbage Soup",
+        "price": 12.95
+      }
+    ]
+  }
+}
