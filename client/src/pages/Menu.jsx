@@ -14,7 +14,7 @@ function CreateMenu() {
       }));
       return acc;
     }, {});
-  }, [menuData]);
+  }, []);
 
   return (
     <Tabs
