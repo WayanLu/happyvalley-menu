@@ -1,7 +1,8 @@
 import { Table } from "react-bootstrap";
 import { Container } from "react-bootstrap";
+import CreateItem from "./MenuItem";
 
-function MenuList() {
+function MenuList({ categoryList }) {
   return (
     <Container fluid>
       <Table striped bordered hover>
@@ -13,22 +14,14 @@ function MenuList() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            {/*<td colSpan={2}>Larry the Bird</td>
-             */}
-            <td>@twitter</td>
-          </tr>
+          {categoryList.map((item) => (
+            <CreateItem
+              key={item.id}
+              index={item.id}
+              name={item.name}
+              price={item.price}
+            />
+          ))}
         </tbody>
       </Table>
     </Container>

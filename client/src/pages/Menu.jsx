@@ -1,27 +1,36 @@
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import React, { useMemo } from "react";
+import { Tab, Tabs } from "react-bootstrap";
 import MenuList from "../features/menu/MenuList";
+import menuData from "../data.json";
 
 function CreateMenu() {
+  // Calculate all items with their global indices
+  const indexedMenuItems = useMemo(() => {
+    let globalIndex = 0;
+    return Object.entries(menuData.menu).reduce((acc, [category, items]) => {
+      acc[category] = items.map((item) => ({
+        ...item,
+        id: ++globalIndex,
+      }));
+      return acc;
+    }, {});
+  }, [menuData]);
+
   return (
     <Tabs
-      defaultActiveKey="appetizers"
+      defaultActiveKey="Appetizers"
       id="fill-tab-example"
       className="mb-3"
       fill
     >
-      <Tab eventKey="appetizers" title="Appetizers">
-        Tab content for Appetizers
-      </Tab>
-      <Tab eventKey="soup" title="Soup">
-        <MenuList />
-      </Tab>
-      <Tab eventKey="fowl" title="Fowl">
-        Tab content for fowl
-      </Tab>
-      <Tab eventKey="beeforpork" title="Beef/Pork">
-        Tab content for Beef/pork
-      </Tab>
+      {/* Iterate through categories */}
+      {Object.entries(indexedMenuItems).map(([category, items]) => (
+        <Tab key={category} eventKey={category} title={category}>
+          <div className="items-list">
+            <MenuList categoryList={items} />
+          </div>
+        </Tab>
+      ))}
     </Tabs>
   );
 }
