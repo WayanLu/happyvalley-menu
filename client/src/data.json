@@ -51,6 +51,32 @@
         "name": "Pork Mustard Cabbage Soup",
         "price": 12.95
       }
+    ],
+    "Fowl": [
+      {
+        "name": "Peking Duck",
+        "price": 49.95
+      },
+      {
+        "name": "Roast Duck",
+        "price": 20.95
+      },
+      {
+        "name": "Crispy Chicken",
+        "price": 14.95
+      },
+      {
+        "name": "Cold Ginger Chicken",
+        "price": 14.95
+      },
+      {
+        "name": "Crispy Chicken w/ Oyster Sauce",
+        "price": 16.95
+      },
+      {
+        "name": "Kung Po Chicken (Hot)",
+        "price": 14.95
+      }
     ]
   }
 }
