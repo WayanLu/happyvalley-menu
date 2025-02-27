@@ -1,15 +1,9 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CreateNavbar from "./components/navbar/navbar";
-import CreateMenu from "./pages/Menu";
+import Layout from "./layouts/Layout";
 
 function App() {
-  return (
-    <>
-      <CreateNavbar />
-      <CreateMenu />
-    </>
-  );
+  return <Layout />;
 }
 
 export default App;
