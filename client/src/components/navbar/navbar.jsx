@@ -14,6 +14,8 @@ function CreateNavbar() {
             <Nav.Link as={Link} to="/" active={location.pathname === "/"}>
               Home
             </Nav.Link>
+          </Nav>
+          <Nav>
             <Nav.Link
               as={Link}
               to="/admin"
