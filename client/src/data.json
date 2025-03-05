@@ -2,78 +2,96 @@
   "menu": {
     "Appetizers": [
       {
+        "id": 1,
         "name": "Char Siu",
         "price": 16.95
       },
       {
+        "id": 2,
         "name": "Crispy Won Ton/Gau Gee",
         "price": 8.95
       },
       {
+        "id": 3,
         "name": "Pot Stickers",
         "price": 8.95
       },
       {
+        "id": 4,
         "name": "Eggroll",
         "price": 6.95
       },
       {
+        "id": 5,
         "name": "Shrimp Canton",
         "price": 14.95
       },
       {
+        "id": 6,
         "name": "Chicken Salad",
         "price": 14.95
       }
     ],
     "Soup": [
       {
+        "id": 7,
         "name": "Scallop Soup",
         "price": 15.95
       },
       {
+        "id": 7,
         "name": "Abalone w/ Black Mushroom Soup",
         "price": 14.95
       },
       {
+        "id": 8,
         "name": "Hot & Sour Soup",
         "price": 12.95
       },
       {
+        "id": 9,
         "name": "Seafood Tofu Soup",
         "price": 17.95
       },
       {
+        "id": 10,
         "name": "Seaweed Tofu Soup",
         "price": 12.95
       },
       {
+        "id": 11,
         "name": "Pork Mustard Cabbage Soup",
         "price": 12.95
       }
     ],
     "Fowl": [
       {
+        "id": 12,
         "name": "Peking Duck",
         "price": 49.95
       },
       {
+        "id": 13,
         "name": "Roast Duck",
         "price": 20.95
       },
       {
+        "id": 14,
         "name": "Crispy Chicken",
         "price": 14.95
       },
       {
+        "id": 15,
         "name": "Cold Ginger Chicken",
         "price": 14.95
       },
       {
+        "id": 16,
         "name": "Crispy Chicken w/ Oyster Sauce",
         "price": 16.95
       },
       {
+        "id": 17,
         "name": "Kung Po Chicken (Hot)",
         "price": 14.95
       }
