@@ -15,15 +15,16 @@ function CreateNavbar() {
               Home
             </Nav.Link>
           </Nav>
-          <Nav>
-            <Nav.Link
-              as={Link}
+          {/* Work on admin page later, focus on styling menu*/}
+          {/* <nav>
+            <nav.link
+              as={link}
               to="/admin"
               active={location.pathname === "/admin"}
             >
-              Admin
-            </Nav.Link>
-          </Nav>
+              admin
+            </nav.link>
+          </nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

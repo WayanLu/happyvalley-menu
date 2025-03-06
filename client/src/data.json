@@ -39,60 +39,120 @@
         "price": 15.95
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Abalone w/ Black Mushroom Soup",
         "price": 14.95
       },
       {
-        "id": 8,
+        "id": 9,
         "name": "Hot & Sour Soup",
         "price": 12.95
       },
       {
-        "id": 9,
+        "id": 10,
         "name": "Seafood Tofu Soup",
         "price": 17.95
       },
       {
-        "id": 10,
+        "id": 11,
         "name": "Seaweed Tofu Soup",
         "price": 12.95
       },
       {
-        "id": 11,
+        "id": 12,
         "name": "Pork Mustard Cabbage Soup",
         "price": 12.95
+      },
+      {
+        "id": 13,
+        "name": "Egg Flower Soup",
+        "price": 12.95
+      },
+      {
+        "id": 14,
+        "name": "Diced Chicken w/ Corn Soup",
+        "price": 12.95
+      },
+      {
+        "id": 15,
+        "name": "Oxtail Soup",
+        "price": 22.95
+      },
+      {
+        "id": 16,
+        "name": "Sizzling Rice Soup",
+        "price": 14.95
+      },
+      {
+        "id": 17,
+        "name": "West Lake Soup",
+        "price": 14.95
       }
     ],
     "Fowl": [
       {
-        "id": 12,
+        "id": 13,
         "name": "Peking Duck",
         "price": 49.95
       },
       {
-        "id": 13,
+        "id": 14,
         "name": "Roast Duck",
         "price": 20.95
       },
       {
-        "id": 14,
+        "id": 15,
         "name": "Crispy Chicken",
         "price": 14.95
       },
       {
-        "id": 15,
+        "id": 16,
         "name": "Cold Ginger Chicken",
         "price": 14.95
       },
       {
-        "id": 16,
+        "id": 17,
         "name": "Crispy Chicken w/ Oyster Sauce",
         "price": 16.95
       },
       {
-        "id": 17,
+        "id": 18,
         "name": "Kung Po Chicken (Hot)",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Cashew Nuts",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Mixed Vegetables",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Black Mushroom",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Baby Corn",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Black Bean Sauce",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Broccoli",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "(Lemon/Sweet & Sour) Chicken",
         "price": 14.95
       }
     ]
