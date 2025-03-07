@@ -579,6 +579,122 @@
         "name": "Saimein",
         "price": 8.95
       }
+    ],
+    "Fried Rice": [
+      {
+        "id": 18,
+        "name": "House Specialty Fried Rice",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Seafood Fried Rice",
+        "price": 16.95
+      },
+      {
+        "id": 18,
+        "name": "Shrimp Fried Rice",
+        "price": 14.95
+      },
+      {
+        "id": 18,
+        "name": "Fook Kin Fried Rice",
+        "price": 18.95
+      },
+      {
+        "id": 18,
+        "name": "Salted Fish & Chicken Fried Rice",
+        "price": 17.95
+      },
+      {
+        "id": 18,
+        "name": "Beef Fried Rice",
+        "price": 13.95
+      },
+      {
+        "id": 18,
+        "name": "Char Siu Fried Rice",
+        "price": 13.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken Fried Rice",
+        "price": 12.95
+      },
+      {
+        "id": 18,
+        "name": "Vegetable Fried Rice",
+        "price": 12.95
+      },
+      {
+        "id": 18,
+        "name": "Indi Fried Rice",
+        "price": 14.95
+      }
+    ],
+    "Hot Pot Specials": [
+      {
+        "id": 18,
+        "name": "Salted Fish, Chicken, Tofu Hot Pot",
+        "price": 22.95
+      },
+      {
+        "id": 18,
+        "name": "Braised Seafood Tofu Vegetable",
+        "price": 25.95
+      },
+      {
+        "id": 18,
+        "name": "Eggplant w/ Minced Pork",
+        "price": 16.95
+      },
+      {
+        "id": 18,
+        "name": "Seafood Over Long Rice Noodle",
+        "price": 25.95
+      }
+    ],
+    "Rice Plates": [
+      {
+        "id": 18,
+        "name": "Seafood Combo",
+        "price": 22.95
+      },
+      {
+        "id": 18,
+        "name": "Chicken w/ Mushroom",
+        "price": 15.95
+      },
+      {
+        "id": 18,
+        "name": "Shrimp w/ Vegetable",
+        "price": 17.95
+      },
+      {
+        "id": 18,
+        "name": "Tofu Vegetable",
+        "price": 15.95
+      },
+      {
+        "id": 18,
+        "name": "Szechuan Eggplant",
+        "price": 15.95
+      },
+      {
+        "id": 18,
+        "name": "Mongolian Beef",
+        "price": 19.95
+      },
+      {
+        "id": 18,
+        "name": "string Bean w/ Chicken",
+        "price": 16.95
+      },
+      {
+        "id": 18,
+        "name": "Lemon Chicken",
+        "price": 15.95
+      }
     ]
   }
 }
