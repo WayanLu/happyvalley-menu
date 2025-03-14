@@ -23,13 +23,13 @@ function CreateMenu() {
     <Container>
       <Row>
         {/* Categories*/}
-        <Col xs={4} md={3} lg={2}>
+        <Col xs={4} md={3} lg={3}>
           {Object.entries(menuData.menu).map(([category, items]) => (
             <Row key={category}>{category}</Row>
           ))}
         </Col>
         {/* Menu Items*/}
-        <Col xs={8} md={9} lg={10}>
+        <Col xs={8} md={9} lg={9}>
           {Object.entries(menuData.menu).map(([category, items]) => (
             <div key={category} className="{category}">
               <h1>{category}</h1>
